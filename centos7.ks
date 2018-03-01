@@ -6,7 +6,9 @@ cdrom
 #installation url
 url --url=http://10.10.4.10/cblr/links/centos7-x86_64
 # Use graphical install
-graphical
+#graphical
+# Use terminal
+text
 # Run the Setup Agent on first boot
 firstboot --enable
 ignoredisk --only-use=sda
